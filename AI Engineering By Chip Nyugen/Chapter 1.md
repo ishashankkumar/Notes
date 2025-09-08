@@ -13,6 +13,12 @@
 ## 2. From Language Models to Large Language Models (LLMs)
 
 - **Language Models (LMs):** Predict next/missing tokens; core unit is the token.
+
+**Why tokens (instead of words/chars):**
+- Break words into meaningful subparts
+- Smaller vocabulary size → efficiency
+- Handle unknown/made-up words
+
 - **Types:**
     - *Masked LM* (BERT): fill-in-the-blank, good for classification.
     - *Autoregressive LM* (GPT): next token prediction, good for generation.
